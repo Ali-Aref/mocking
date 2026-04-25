@@ -12,4 +12,12 @@ export class MyCardsUpdateDto {
   @IsOptional()
   @IsInt()
   userId: number;
+
+  @IsOptional()
+  @IsString()
+  lastBalance: string;
+
+  @IsOptional()
+  @IsString()
+  lastBalanceAt: string;
 }

@@ -6,4 +6,6 @@ export const myCards = pgTable('my_cards', {
   cardNumber: varchar('card_number').notNull(),
   holderName: varchar('holder_name').notNull(),
   userId: integer('user_id').notNull(),
+  lastBalance: varchar('last_balance'),
+  lastBalanceAt: varchar('last_balance_at'),
 });

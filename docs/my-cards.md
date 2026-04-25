@@ -19,7 +19,9 @@ Example response:
     "id": 1,
     "cardNumber": "4111111111111111",
     "holderName": "Ali Ahmad",
-    "userId": 12
+    "userId": 12,
+    "lastBalance": "1250.5",
+    "lastBalanceAt": "1745490600000"
   }
 ]
 ```
@@ -39,7 +41,9 @@ Example response:
   "id": 1,
   "cardNumber": "4111111111111111",
   "holderName": "Ali Ahmad",
-  "userId": 12
+  "userId": 12,
+  "lastBalance": "1250.5",
+  "lastBalanceAt": "1745490600000"
 }
 ```
 
@@ -55,7 +59,9 @@ Request body:
 {
   "cardNumber": "4111111111111111",
   "holderName": "Ali Ahmad",
-  "userId": 12
+  "userId": 12,
+  "lastBalance": "1250.5",
+  "lastBalanceAt": "1745490600000"
 }
 ```
 
@@ -66,7 +72,9 @@ Example response:
   "id": 1,
   "cardNumber": "4111111111111111",
   "holderName": "Ali Ahmad",
-  "userId": 12
+  "userId": 12,
+  "lastBalance": "1250.5",
+  "lastBalanceAt": "1745490600000"
 }
 ```
 
@@ -81,7 +89,9 @@ Request body:
 
 ```json
 {
-  "holderName": "Ali A."
+  "holderName": "Ali A.",
+  "lastBalance": "1250.5",
+  "lastBalanceAt": "1745490600000"
 }
 ```
 
@@ -92,7 +102,9 @@ Example response:
   "id": 1,
   "cardNumber": "4111111111111111",
   "holderName": "Ali A.",
-  "userId": 12
+  "userId": 12,
+  "lastBalance": "1250.5",
+  "lastBalanceAt": "1745490600000"
 }
 ```
 
